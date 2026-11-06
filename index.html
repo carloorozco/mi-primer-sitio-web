@@ -1,0 +1,436 @@
+<!--
+  ======================================================================
+  INSTITUCIÓN: CBTis 166 Pablo Torres Burgos
+  ----------------------------------------------------------------------
+  * Estudiante: Gaona Castro Eduardo Baltazar
+  * Grupo: 3B PRO VESP  
+  * Actividad: Portal Institucional (Con barra superior, collage y formulario)
+  ====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBTis 166 - Portal Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTACTO -->
+    <div class="top-bar" id="inicio">
+        <div class="top-bar-container">
+            <div class="top-contacts">
+                <span class="top-item">📞 754 897 674</span>
+                <span class="top-item whatsapp">💬 Escríbenos por <strong>WhatsApp</strong></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#inicio">
+                    <img src="img/logo_uniat.png" alt="CBTis 166" class="brand-logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#oferta">Carreras UNIAT</a>
+                <a href="login.html" class="btn-nav-login">Alumnos UNIAT</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON COLLAGE DE IMÁGENES -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos, Botón y Beneficios -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1><i>Educación Superiorcon Validez Oficial SEP - UNIAT</h1>
+                <p>Estudia tu carrera universitaria 100% practica en la primera universidad de videojuegos de Mexico, Campus Guadalajara, Tijuana,
+                San luis Potosi y Global Online. RVOE SEP y boplsa de trabajo directa</i></p>
+                
+                <div class="hero-cta-box">
+                    <a href="login.html" class="btn-orange">Solicita informes →</a>
+                    <div class="hero-benefits">
+                        <span>✓ Titulación con RVOE SEP oficial</span>
+                        <span>✓ Bolsa de trabajo en estudios Triple-A</span>
+                        <span>✓ Proyectos reales desde 1er semestre</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Collage de Imágenes -->
+            <div class="hero-image-side">
+                <div class="image-collage">
+                    <div class="collage-main">
+                        <img src="https://uniat.edu.mx/wp-content/uploads/2026/08/Detalle_Campus_GDL-1024x576.webp" alt="Estudiante CBTis">
+                    </div>
+                    <div class="collage-sub">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwmodjhUAmfSka43IH9TEi68SKx8rnWms-cdkDHgsaUiZIVh7eci-SsQ&s=10" alt="Laboratorista">
+                        <img src="https://www.informador.mx/__export/1754398918860/sites/elinformador/img/2025/08/05/uniat_1_crop1754398918229.jpg_70287019.jpg" alt="Programación">
+                    </div>
+                </div>
+                <article>
+                <header>
+                    <h1>Mas Sobre UNIAT</h1>
+                </header>
+                <p>Mas informacion sobre nuestra Universidad.
+                <div class="embed-box">
+                    <iframe src="https://es.wikipedia.org/wiki/Universidad_de_Tecnolog%C3%ADas_Avanzadas" title="Ejemplo de página web externa"></iframe>
+                </div>
+            </article>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE OFERTA EDUCATIVA CON IMÁGENES ALUSIVAS -->
+    <section id="oferta" class="careers-section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Estas son Algunas de Nuestras Carreras que Podria Interesarte</h2>
+                <p>Elige una carrera y prepárate para ganar experiencia con nosotros</p>
+            </div>
+
+            <div class="careers-grid">
+                
+                <!-- Carrera 1: Recursos Humanos -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLMrbR91fmChM6DlXy4JbV2HV5RJAKDA-erpwkPIWFkedgkXjNrpSw4vE&s=10" alt="Recursos Humanos">
+                    </div>
+                    <div class="career-content">
+                        <h3>Ingenieria en Desarollo de Videojuegos</h3>
+                        <p>Es la carrera donde aprendes a crear videojuegos desde cero.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 2: Programación -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://uniat.com/wp-content/uploads/2021/10/licenciatura-arte-videojuegos-1-web.jpg" alt="Programación">
+                    </div>
+                    <div class="career-content">
+                        <h3>Licenciatura en Animacion Digital</h3>
+                        <p>Es la carrera donde aprendes a diseñar todo lo visual del juego.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 3: Ciberseguridad -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://unives.mx/wp-content/uploads/2021/02/rear-view-of-programmer-working-all-night-long-min.jpg" alt="Ciberseguridad">
+                    </div>
+                    <div class="career-content">
+                        <h3>Ing. en Desarollo de Software</h3>
+                        <p>Aprendes a crear apps, videojuegos y sistemas cloud.</p>
+                    </div>
+                </div>
+
+                <!-- Carrera 4: Laboratorista Clínico -->
+                <div class="career-card">
+                    <div class="career-img-container">
+                        <img src="https://uniat.com/wp-content/uploads/2021/04/ingenieria-videojuegos-en-linea.jpg" alt="Laboratorista Clínico">
+                    </div>
+                    <div class="career-content">
+                        <h3>Ing. en Progrmacion de VIdeojuegos</h3>
+                        <p>Aprendes a programar desde cero con Unity. Unreal Engine, motores graficos e IA.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOCENTES CON RECORRIDO INTERACTIVO (JS) -->
+    <section class="teachers-section" style="background: linear-gradient(180deg, #FF6A00 0%, #F26522 55%, #FF8A00 100%); width: 100%; margin: 0; padding: 60px 0; overflow: hidden; display: block;">
+        <div class="teachers-container">
+            
+            <div class="teachers-header">
+                <div>
+                    <span class="teachers-tag"><mark>¿QUIÉN ENSEÑA EN UNIAT?</mark></span>
+                    <h2>Nuestros Mentores UNIAT</h2>
+                    <p><i>En UNIAT aprendes con instructores que trabajan en la industria real de videojuegos, animación, cine digital y tecnología. Utiliza los botones para conocer a nuestros mentores.</i></p>
+                </div>
+                <!-- Botones funcionales con IDs -->
+                <div class="teachers-nav-buttons">
+                    <button id="btn-prev" class="nav-btn">‹</button>
+                    <button id="btn-next" class="nav-btn">›</button>
+                </div>
+            </div>
+
+            <!-- Contenedor de las tarjetas de docentes (controlado por JS) -->
+            <div class="teachers-grid" id="teachers-track">
+                
+                <!-- Grupo 1 (Primeros 4 profesores) -->
+                <div class="teacher-card">
+                    <img src="img/hombre 1.0.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Mtro. Carlos Mendoza</h3>
+                        <p>Licenciado en Ingenieria en Sistemas y desarollo de Videojuegos.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwAbHE33iVzfRsrQTRrH8Ka7Y-i5v-AdiYmQpBxBDLfTSHYtLKjqMnIdP7&s=10" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Dra. Laura Fernandez</h3>
+                        <p>Doctora en Diseño Digital y Tecnologias Educativas. Docente de la Universidad Unity.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://media.istockphoto.com/id/1550589735/es/foto/retrato-hombre-asi%C3%A1tico-feliz-o-seguro-con-los-brazos-cruzados-o-sonrisa-en-el-estudio-de.jpg?s=612x612&w=0&k=20&c=XbN8O_EhE60BV1ha7VM_wmyhNmBNZWU8irPQc2H-uVk=" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Ing. Adrian Torres</h3>
+                        <p>Docente de Desarollo de Videojuegos en Unity. Enseña a programar juegos en 2D y 3D desde cero y a publicarlos</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://img.magnific.com/foto-gratis/mujer-joven-hermosa-sueter-rosa-calido-aspecto-natural-sonriente-retrato-aislado-cabello-largo_285396-896.jpg?semt=ais_hybrid&w=740&q=80" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Lic. Mariana Lopez</h3>
+                        <p>Docente de Diseño de Personajes y Animacion 3D.</p>
+                    </div>
+                </div>
+
+                <!-- Grupo 2 (Otros 4 profesores / Ejemplos adicionales para el recorrido) -->
+                <div class="teacher-card">
+                    <img src="https://media.istockphoto.com/id/1388648617/es/foto/joven-cauc%C3%A1sico-confiado-con-ropa-casual-de-mezclilla-con-los-brazos-cruzados-mirando-a-la.jpg?s=612x612&w=0&k=20&c=TXOVrBbKuOCwjQTt4kOU7IPb0M7qyxsmUO2-oV9DVmw=" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Mtro. Kevin Ramirez</h3>
+                        <p>Docente de Programacion y Logica de Videojuegos.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Dra. Valeria Cruz</h3>
+                        <p>Docente de Narrativa y Diseño de Niveles.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="https://img.magnific.com/foto-gratis/estilo-vida-emociones-gente-concepto-casual-confiado-agradable-sonriente-mujer-asiatica-brazos-cruzados-pecho-seguro-listo-ayudar-escuchando-companeros-trabajo-participando-conversacion_1258-59335.jpg?semt=ais_hybrid&w=740&q=80" alt="Profesora">
+                    <div class="teacher-info">
+                        <h3>Ing. Sofia Herrera</h3>
+                        <p>Docente de Realidad Virtual y Realidad Aumentada.</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="img/hombre 2.0.jpg" alt="Profesor">
+                    <div class="teacher-info">
+                        <h3>Lic. Diego Salazar</h3>
+                        <p>Docente de Audio y Efectos para Videojuegos.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE DOS COLUMNAS CON FORMULARIO INTEGRADO -->
+    <section class="hero-section">
+        <div class="hero-container">
+            
+            <!-- Columna Izquierda: Textos y Beneficios (Estilo UMOV) -->
+            <div class="hero-text-side">
+                <span class="hero-tag">¡INSCRIPCIONES ABIERTAS!</span>
+                <h1 class="hero-title-custom">¿Tienes dudas con cualquier cosa?</h1>
+                <p class="hero-desc-custom">
+                    Déjanos tus datos y te contactaremos para ayudarte a elegir tu carrera
+                    universitaria en UNIAT - Universidad de Tecnologia Avanzada.
+                </p>
+                
+                <div class="hero-subtitle-custom">
+                    Conoce todo sobre UNIAT:
+                </div>
+                <div class="hero-benefits hero-benefits-column">
+                    <span>✓ Ing. en Animacion Digital y Videojuegos - 4 años, RVOE SEP</span>
+                    <span>✓ Lic. en Diseño y Animacion Digital - 4 años, RVOE SEP</span>
+                    <span>✓ Costos, becas y formas de pago</span>
+                    <span>✓ Valida oficial SEP y bolsa de trabajo en estudios como Netflix, Blizzard, Anima</span>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Tarjeta Flotante con Formulario (10 campos/etiquetas) -->
+            <div class="hero-form-side">
+                <div class="cbtis-hero-form-card">
+                    
+                    <h3 class="form-card-title">
+                        Solicita informes
+                    </h3>
+
+                    <form id="form-hero-informes" action="#" method="POST">
+                        
+                        <!-- 1. Campo de Texto: Nombre -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_nombre" name="nombre" required placeholder="Nombre" class="form-control-input">
+                        </div>
+
+                        <!-- 2. Campo de Texto: Apellido -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="text" id="info_apellido" name="apellido" required placeholder="Apellido" class="form-control-input">
+                        </div>
+
+                        <!-- 3. Campo de Correo Electrónico -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="email" id="info_email" name="email" required placeholder="Correo electrónico" class="form-control-input">
+                        </div>
+
+                        <!-- 4. Campo de Teléfono -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <input type="tel" id="info_telefono" name="telefono" required placeholder="Teléfono o WhatsApp" class="form-control-input">
+                        </div>
+
+                        <!-- 5. Menú Desplegable (Select): Nivel de Estudios -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_nivel" name="nivel" required class="form-control-select">
+                                <option value="">Elige el nivel que deseas estudiar</option>
+                                <option value="licenciatura">Licenciatura</option>
+                                <option value="ingenieria">Ingenieria</option>
+                                <option value="maestria">Maestria</option>
+                            </select>
+                        </div>
+
+                        <!-- 6. Menú Desplegable (Select): Carrera Técnica -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <select id="info_carrera" name="carrera" required class="form-control-select">
+                                <option value="">Elige tu carrera de interés</option>
+                                <option value="animacion">Licenciatura en Cine y Animacion Digital</option>
+                                <option value="diseño">Licenciatura en Diseño y Arte para Videojuegos</option>
+                                <option value="programacion">Ingenieria en Programacion de Videojuegos</option>
+                                <option value="arquitectura">Licenciatura en Arquitectura 3D</option>
+                                <option value= "marketing">Licenciatura en Marketing Digital</option>
+                                <option value= "ciberseguridad"> Maestria en Ciberseguridad</option>
+                            </select>
+                        </div>
+
+                        <!-- 7. Campo de Fecha (Date): Fecha estimada de ingreso -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <label for="info_fecha" class="form-date-label">Fecha estimada de ingreso:</label>
+                            <input type="date" id="info_fecha" name="fecha" required class="form-control-date">
+                        </div>
+                   
+                    <article>
+                        <header>
+                           <h2><mark>UNIAT</mark></h2>
+                        </header>
+                        <p><mark>Este es el mapa donde se encuentra UNIAT, haga click para mas Informacion.</mark></p>
+                         <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.4366795315955!2d-103.40531882485548!3d20.65180590061914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428add2c29d1061%3A0x4a83aa52751b9714!2sUNIAT%20University%20of%20Advanced%20Technologies!5e0!3m2!1ses-419!2smx!4v1793812452504!5m2!1ses-419!2smx" width="350" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> 
+                            
+                    </iframe>
+                        <!-- 8. Área de Texto (Textarea): Dudas adicionales -->
+                        <div class="cbtis-input-group form-group-margin">
+                            <textarea id="info_comentarios" name="comentarios" rows="2" placeholder="Escribe tus dudas o comentarios..." class="form-control-textarea"></textarea>
+                        </div>
+                    </article>
+                      <!-- 9. Casilla de Verificación (Checkbox): Términos y privacidad -->
+                        <div class="cbtis-input-group form-group-checkbox">
+                            <input type="checkbox" id="info_terminos" name="terminos" required class="form-checkbox-input">
+                            <label for="info_terminos" class="form-checkbox-label">
+                                Acepto recibir información y el aviso de privacidad de UNIAT.
+                            </label>
+                        </div>
+
+                        <!-- 10. Botón de Envío (Submit Button) -->
+                        <button type="submit" class="cbtis-btn-ingresar form-submit-btn">
+                            Solicitar informes
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONVENIOS DOBLE LÍNEA -->
+    <section class="convenios-section">
+        <div class="convenios-container">
+            
+            <div class="section-header">
+                <span class="teachers-tag convenience-tag-custom">¿QUIÉNES ESTAN CON  UNIAT?</span>
+                <h2>Nuestros Convenios</h2>
+                <p>Grandes empresas e instituciones forman a sus colaboradores en UNIAT y contratan a nuestra comunidad egresada.</p>
+            </div>
+
+            <!-- LÍNEA 1: Se desplaza hacia la IZQUIERDA -->
+           <div class="marquee-wrapper">
+               <div class="marquee-track marquee-track-top">
+                   <div class="convenio-card">🎮 Autodesk</div>
+                   <div class="convenio-card">🎬 Unreal Engine</div>
+                   <div class="convenio-card">🕹️ Unity</div>
+                   <div class="convenio-card">🌐 Cisco Networking Academy</div>
+                   <div class="convenio-card">🔍 Google for Education</div>
+                   <div class="convenio-card">☁️ Amazon Web Services</div>
+                   <div class="convenio-card">💻 NVIDIA</div>
+                   <div class="convenio-card">🪟 Microsoft</div>
+                   <!-- Duplicado para efecto infinito fluido -->
+                   <div class="convenio-card">🎮 Autodesk</div>
+                   <div class="convenio-card">🎬 Unreal Engine</div>
+                   <div class="convenio-card">🕹️ Unity</div>
+                   <div class="convenio-card">🌐 Cisco Networking Academy</div>
+                   <div class="convenio-card">🔍 Google for Education</div>
+                   <div class="convenio-card">☁️ Amazon Web Services</div>
+                   <div class="convenio-card">💻 NVIDIA</div>
+                   <div class="convenio-card">🪟 Microsoft</div>
+               </div>
+            </div>
+          <!-- LÍNEA 2: Se desplaza hacia la DERECHA -->
+         <div class="marquee-wrapper marquee-wrapper-spacing">
+               <div class="marquee-track marquee-track-bottom">
+                   <div class="convenio-card">🏭 Flextronics</div>
+                   <div class="convenio-card">🔧 Jabil</div>
+                   <div class="convenio-card">🎧 Teleperformance</div>
+                   <div class="convenio-card">💾 Intel</div>
+                   <div class="convenio-card">🖨️ HP</div>
+                   <div class="convenio-card">🗄️ Oracle</div>
+                   <div class="convenio-card">🎨 Adobe</div>
+                   <div class="convenio-card">📱 3DMX Inc. - Silicon Valley</div>
+                   <!-- Duplicado para efecto infinito fluido -->
+                   <div class="convenio-card">🏭 Flextronics</div>
+                   <div class="convenio-card">🔧 Jabil</div>
+                   <div class="convenio-card">🎧 Teleperformance</div>
+                   <div class="convenio-card">💾 Intel</div>
+                   <div class="convenio-card">🖨️ HP</div>
+                   <div class="convenio-card">🗄️ Oracle</div>
+                   <div class="convenio-card">🎨 Adobe</div>
+                   <div class="convenio-card">📱 3DMX Inc. - Silicon Valley</div>
+               </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER CON REDES SOCIALES) -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-info">
+                <p>UNIAT &copy; 2026</p>
+                <p class="footer-author">Desarrollado por: Orozco Gaspar Carlo Eder (3B PRO VESP)</p>
+            </div>
+
+            <!-- Enlaces de Redes Sociales -->
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">f</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">ig</a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon" title="WhatsApp">💬</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon" title="YouTube"> ▶</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
